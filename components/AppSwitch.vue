@@ -1,6 +1,6 @@
 <template>
   <div class="sidearea">
-    <h4>Only Show Sale Items</h4>
+    <h4>Only Show bajs Items</h4>
     <div class="can-toggle demo-rebrand-2">
       <input id="e" type="checkbox" v-model="trigger" @change="updateSale">
       <label for="e">
@@ -37,7 +37,7 @@ h4 {
 
 /* modified from Accessbile Toggle Switch by Chris Hart: https://codepen.io/personable/full/stpwD */
 @mixin can-toggle-branding(
-  $can-toggle-off-color: #777, 
+  $can-toggle-off-color: #ff0000, 
   $can-toggle-on-color: #5fc054,
   $can-toggle-inactive-text: rgba(white, 0.5),
   $can-toggle-transition: cubic-bezier(0,1,0.5,1)
