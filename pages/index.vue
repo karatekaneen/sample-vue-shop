@@ -1,9 +1,10 @@
 <template>
   <main class="capsule">
-    <app-masthead/>
+    <app-masthead />
     <div class="contain">
-      <app-sidebar :pricerange.sync="highprice"/>
+      <app-sidebar :pricerange.sync="highprice" />
       <transition-group name="items" tag="section" class="content">
+        hej det här är en ändring
         <app-item
           v-for="(item, index) in products"
           key="item"
@@ -16,9 +17,9 @@
 </template>
 
 <script>
-import AppSidebar from './../components/AppSidebar.vue';
-import AppMasthead from './../components/AppMasthead.vue';
-import AppItem from './../components/AppItem.vue';
+import AppSidebar from "./../components/AppSidebar.vue";
+import AppMasthead from "./../components/AppMasthead.vue";
+import AppItem from "./../components/AppItem.vue";
 
 export default {
   components: {
